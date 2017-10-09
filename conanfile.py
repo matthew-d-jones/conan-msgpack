@@ -7,7 +7,7 @@ class MsgpackConan(ConanFile):
     name = "msgpack"
     version = "2.1.5"
     license = "MIT"
-    url = "<Package recipe repository url here, for issues about the package>"
+    url = "https://github.com/sztomi/conan-msgpack"
     description = "MessagePack is an efficient binary serialization format"
     #exports_sources = "include/*"
 

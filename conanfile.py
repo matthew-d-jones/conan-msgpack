@@ -6,7 +6,7 @@ import os
 class MsgpackConan(ConanFile):
     name = "msgpack"
     version = "2.1.5"
-    license = "MIT"
+    license = "Boost Software License 1.0"
     url = "https://github.com/sztomi/conan-msgpack"
     description = "The official C++ library for MessagePack"
 

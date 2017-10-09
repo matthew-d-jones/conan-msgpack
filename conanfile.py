@@ -8,8 +8,7 @@ class MsgpackConan(ConanFile):
     version = "2.1.5"
     license = "MIT"
     url = "https://github.com/sztomi/conan-msgpack"
-    description = "MessagePack is an efficient binary serialization format"
-    #exports_sources = "include/*"
+    description = "The official C++ library for MessagePack"
 
     @property
     def extracted_dir(self):
@@ -33,4 +32,3 @@ class MsgpackConan(ConanFile):
 
     def package_info(self):
         self.cpp_info.includedirs.append(os.path.join(self.package_folder, "include"))
-        self.cpp_info.defines.append("MSGPACK_CONAN_PACKAGE")

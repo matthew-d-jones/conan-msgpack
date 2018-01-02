@@ -2,7 +2,7 @@
 
 | Bintray | Appveyor | Travis | 
 |---------|-----------|--------|
-|BINTRAY_BADGE_URL|APPVEYOR_BADGE_URL|TRAVIS_BADGE_URL|
+|[![Download](https://api.bintray.com/packages/bincrafters/public-conan/msgpack%3Abincrafters/images/download.svg)](https://bintray.com/bincrafters/public-conan/msgpack%3Abincrafters/_latestVersion)|[![Build status](https://ci.appveyor.com/api/projects/status/xiv41kdnlpdv6k1o?svg=true)](https://ci.appveyor.com/project/BinCrafters/conan-msgpack)|[![Build Status](https://travis-ci.org/bincrafters/conan-msgpack.svg?branch=stable%2F2.1.5)](https://travis-ci.org/bincrafters/conan-msgpack)|
 
 ## Conan.io Information
 

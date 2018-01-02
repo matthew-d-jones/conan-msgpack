@@ -1,14 +1,17 @@
-from conans import ConanFile, tools
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
+from conans import ConanFile, tools
 import os
 
 
 class MsgpackConan(ConanFile):
     name = "msgpack"
     version = "2.1.5"
-    license = "https://raw.githubusercontent.com/msgpack/msgpack-c/master/COPYING"
-    url = "https://github.com/bincrafters/conan-msgpack"
     description = "The official C++ library for MessagePack"
+    url = "https://github.com/bincrafters/conan-msgpack"
+    license = "BSL-1.0"
+    exports = ["LICENSE.md"]
     
     def source(self):
         source_url = "https://github.com/msgpack/msgpack-c/releases/download"

@@ -29,9 +29,6 @@ class MsgpackConan(ConanFile):
         self.copy("*.h", dst="include", src=include_dir)
         self.copy("*.hpp", dst="include", src=include_dir)
 
-    def package_info(self):
-        self.cpp_info.includedirs.append(os.path.join(self.package_folder, "include"))
-
     def package_id(self):
         self.info.header_only()
 

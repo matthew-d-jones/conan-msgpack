@@ -27,6 +27,7 @@ class MsgpackConan(ConanFile):
 
     def package(self):
         include_dir = os.path.join(self.source_subfolder, "include")
+        self.copy("LICENSE_1_0.txt", dst="license", src=self.source_subfolder)
         self.copy("*.h", dst="include", src=include_dir)
         self.copy("*.hpp", dst="include", src=include_dir)
 

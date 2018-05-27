@@ -7,11 +7,11 @@ import os
 
 class MsgpackConan(ConanFile):
     name = "msgpack"
-    version = "2.1.5"
+    version = "2.0.0"
     description = "The official C++ library for MessagePack"
-    url = "https://github.com/bincrafters/conan-msgpack"
+    url = "https://github.com/matthew-d-jones/conan-msgpack"
     license = "BSL-1.0"
-    exports = ["LICENSE.md"]
+    exports = ["LICENSE-bincrafters.md"]
     source_subfolder = "source_subfolder"
         
     def source(self):
